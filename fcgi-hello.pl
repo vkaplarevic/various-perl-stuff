@@ -5,6 +5,8 @@ use strict;
 use v5.10;
 use Plack::Handler::FCGI;
 
+### Playing with the plackup and FCGI...
+
 my $app = sub 
 { 
     my $env = shift;
