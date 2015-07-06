@@ -1,4 +1,4 @@
-#!/usr/bin/perl -I/Users/vlkaplarevic/work/perl/bless/lib/
+#!/usr/bin/perl -Ilib/
 
 use strict;
 use warnings;
