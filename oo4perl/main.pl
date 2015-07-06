@@ -12,8 +12,8 @@ sub main {
             last_name   => 'Doe',
         });
     
-    say STDERR $p->get_first_name;
-    say STDERR $p->get_last_name;
+    say STDOUT $p->get_first_name;
+    say STDOUT $p->get_last_name;
 }
 
 main();
